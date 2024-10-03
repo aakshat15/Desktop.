@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 solution</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            :root{
+                --navbgcolor:red;
+                --navcolor:pink;
+                --secbgcolor:yellow;
+            }
+            body{
+              overflow-x: hidden;
+            }
+            nav{
+               
+                position: fixed;
+                background-color: var(--navbgcolor);
+                width: 100vw;
+                height: 10vh;               
+            }
+            nav ul{
+                height: 10vh;
+                display: flex;
+                flex-flow: row wrap;
+                list-style: none;
+                justify-content: space-around;
+                align-content:center ;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: var(--navcolor);
+                border: 2px solid darksalmon;
+                border-radius: 40px;
+                padding: 5px;
+                background-color: aqua;
+            }
+            section{
+                height: 100vh;
+                width: 100vw;
+                /* border: 5px solid greenyellow; */
+                background-color: var(--secbgcolor);
+                display: flex;
+            }
+            main:first-child{
+                margin: auto;
+                height: 45vh;
+                width: 30vw;
+                background-color: antiquewhite;
+            }
+            main:nth-child(2){
+                margin: auto;
+                height: 45vh;
+                width: 30vw;
+                background-color: antiquewhite;
+            }
+            section a{
+                align-self:flex-end;
+                text-decoration: none;
+                font-size: xx-large;
+                border: 2px solid black;
+                background-color: aqua;
+                margin: 30px 25px 80px 1300px;
+                position: fixed;    
+            }
+            article{
+                height: 40vh;
+                width: 100vw;
+                font-size: 6rem;
+                border: 2px solid blue;
+                background-color: brown;
+                text-align: center;
+
+            }
+            footer{
+                height: 5vh;
+                width: 100vw;
+                background-color: blue;
+            }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">Contect Us</a></li>
+            <li><a href="">Help</a></li>
+        </ul>
+    </nav>
+    <section>
+            <main></main>
+            <main class="2"></main>
+            <a href="">button</a>
+    </section>
+    <article>
+        welcome to for in my website
+    </article>
+    <footer>
+        this is footer
+    </footer>
+</body>
+</html>

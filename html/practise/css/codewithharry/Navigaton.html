@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+    <style>
+        .nav {
+            overflow: hidden;
+            background-color: #f7b9b9;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            margin-left: -8px;
+            border-radius: 6 px;
+        }
+
+        .nav ul {
+            overflow: auto;
+            margin-left: 68%;
+            margin-top: 10px;
+        }
+
+        .nav li {
+            float: left;
+            list-style: none;
+            margin: 15px;
+        }
+
+        .nav li a {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            align-items: left;
+            text-decoration: none;
+            margin: -2px;
+            padding: 2px;
+            color: rgb(187, 119, 119);
+            
+
+        }
+        .nav li a:hover{
+            color: rgb(80, 78, 78);
+            background-color: aqua;
+            border-radius: 5px;
+        }
+        .search{
+          float: left;
+           margin: 24px 0px 0px 40px;
+           border-radius: 30px;
+           text-align: center;
+           width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <input type="text" name="search" class="search" placeholder="search">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

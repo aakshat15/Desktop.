@@ -1,0 +1,102 @@
+	mysql> show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| wscube             |
++--------------------+
+5 rows in set (0.22 sec)
+
+mysql> create database school;
+Query OK, 1 row affected (0.03 sec)
+
+mysql> show database;;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'database' at line 1
+ERROR:
+No query specified
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| school             |
+| sys                |
+| wscube             |
++--------------------+
+6 rows in set (0.00 sec)
+
+mysql>
+mysql> use school;
+Database changed
+mysql> show tables
+    -> ;
+Empty set (0.02 sec)
+
+mysql> create table;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> create table datatables(id int primary key auto_increment,name varchar(10) , age int );
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> show tables;
++------------------+
+| Tables_in_school |
++------------------+
+| datatables       |
++------------------+
+1 row in set (0.00 sec)
+
+mysql> show datatables
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'datatables' at line 1
+mysql> show tables;
++------------------+
+| Tables_in_school |
++------------------+
+| datatables       |
++------------------+
+1 row in set (0.00 sec)
+
+mysql> insert into datatables
+    -> insert into datatables values (1,'name',age);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into datatables values (1,'name',age)' at line 2
+mysql> insert into datatables values (1,'name',1);
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into datatables values (1,'name',1),(2,rohan,2);
+ERROR 1054 (42S22): Unknown column 'rohan' in 'field list'
+mysql> insert into datatables values (1,'name',1),(2,'rohan',2);
+ERROR 1062 (23000): Duplicate entry '1' for key 'datatables.PRIMARY'
+mysql> insert into datatables values (2,'rohan',2);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> show datataables
+    -> show datatables;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'datataables
+show datatables' at line 1
+mysql> insert into datatables values (3,'anash',25);
+Query OK, 1 row affected (0.01 sec)
+
+mysql>  selecti * from datatables
+    ->  selecti * from datatables;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selecti * from datatables
+ selecti * from datatables' at line 1
+mysql>  select * from datatables;
++----+-------+------+
+| id | name  | age  |
++----+-------+------+
+|  1 | name  |    1 |
+|  2 | rohan |    2 |
+|  3 | anash |   25 |
++----+-------+------+
+3 rows in set (0.00 sec)
+
+mysql>
+
+

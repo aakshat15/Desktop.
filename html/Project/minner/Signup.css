@@ -1,0 +1,17 @@
+body{
+   background-image: url(wallpaperflare.com_wallpaper.jpg);
+  background-position: 80%;
+   height: 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(193, 165, 165);
+}
+inpute{
+   background-color: rgb(248, 236, 236);
+}
+label{
+    color: azure;
+    height: 500px;
+    width: 500px;
+}

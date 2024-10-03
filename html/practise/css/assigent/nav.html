@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav by variable</title>
+    <style>
+        :root{
+            --bgcolor:red;
+            --color: skyblue;
+            --tcolor:rgb(114, 243, 114);
+        }
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            height: 10vh;
+            width: 100vw;
+            background-color: var(--bgcolor);
+            display: flex;
+            flex-flow: row wrap;
+        }
+        nav .sign{
+            width: 50vw;
+            height: 10vh;
+            /* background-color: aqua; */
+        }
+        nav .navelement{
+            width: 50vw;
+            height: 10vh;
+            background-color: var(--color);
+        }
+        nav .navelement li{
+            list-style: none;
+            float: left;
+            padding: 20px;
+        }   
+        nav .navelement a{ 
+            text-decoration: none;
+            color:var(--tcolor);
+            /* border: 2px solid blue;   */
+            margin:20px;
+        }
+        @media(max-width:500px){
+            nav{
+                display: block;
+                height: 50vh;
+            }
+            nav  .sign{
+                height: 50%;
+                width: 100%;
+            }
+            nav .navelement{
+                height: 50%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="sign">
+
+        </div>
+        <div class="navelement">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>

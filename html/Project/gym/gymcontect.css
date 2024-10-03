@@ -1,0 +1,62 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-image: url(form.jpg);
+    /* background-color: blueviolet; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+header .container{
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+}
+.container  h1{
+    color: white;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 50px;
+    text-align: center; 
+    /* border: 2px solid red; */
+}
+.contact-form form{
+    justify-content: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 100%;
+}
+.container label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    color: wheat;
+}
+.container input{
+    width: 400px;
+}
+button{
+    background-color: rgb(85, 82, 82, 0.5);
+    border: 3px solid white;
+    width: 400px;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    position: relative;
+    top: 8px;
+    left: 18px;
+}
+button:hover{
+    background-color: rgb(85, 82, 82, 0.5);
+    color: rgb(107, 94, 94);
+    cursor: pointer;
+}
+footer{
+    color: white;
+}

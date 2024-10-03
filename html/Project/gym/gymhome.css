@@ -1,0 +1,169 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url(home.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-family: "Poppins", sans-serif;
+    }
+
+    /* for the whole continer */
+    #container {
+        background-size: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    /* for the top connect bar */
+    .connect {
+        margin-top: 0px;
+        height: 30px;
+        width: 100%;
+        /* border: 2px solid red; */
+        background-color: rgba(37, 32, 32, 0.6);
+    }
+
+    /* For icon on top */
+    .icon {
+        color: white;
+        margin: 0px;
+
+    }
+
+    #number {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: absolute;
+        left: 100px;
+    }
+
+    /* for social connetion */
+    #social {
+        position: absolute;
+        right: 50px;
+    }
+
+    .fa-brands {
+        text-decoration: none;
+        padding: 6px;
+        color: white;
+    }
+
+    /* uper line complete */
+
+    #nav {
+        /* border: 2px solid navy; */
+        height: 100px;
+    }
+
+    .logo img {
+        position: relative;
+        height: 80px;
+        width: 60px;
+        top: 2px;
+        left: 105px;
+    }
+
+    .logo p {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        position: relative;
+        left: 92px;
+        bottom: 22px;
+    }
+
+    /* #nav a{
+        text-decoration: none;
+        background-color: rgb(85, 82, 82, 0.5);
+        border: 3px solid white;
+        color: white;
+        padding: 4px;
+        border-radius: 8px; 
+        position: absolute;
+        right: 88px;
+       top: 60px;   
+    } */
+    #nav a:hover {
+        background-color: rgb(85, 82, 82, 0.5);
+        color: rgb(107, 94, 94);
+        cursor: pointer;
+    }
+
+    /* for mid area */
+    .mid {
+        flex-flow: row;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 500px;
+        width: 100%;
+        /* border: 2px solid magenta; */
+    }
+
+    /* FOR HEADDING 1 */
+    .mid h1 {
+        color: rgb(255, 255, 255, 0.2);
+        font-size: 130px;
+        position: absolute;
+        top: 30%;
+        right: 50px;
+    }
+
+    .mid .build {
+        color: aqua;
+        position: absolute;
+        top: 61%;
+        font-size: 40px;
+        left: 11%;
+    }
+
+    .mid .yourbody {
+        color: white;
+        font-size: 60PX;
+        position: absolute;
+        top: 54%;
+        left: 20%;
+    }
+
+    .mid .transform {
+        color: rgb(59, 160, 59);
+        font-size: 44PX;
+        position: absolute;
+        top: 69%;
+        left: 1%;
+    }
+
+    .mid .yourlife {
+        color: white;
+        font-size: 60PX;
+        position: absolute;
+        top: 63.5%;
+        left: 22%;
+    }
+
+    .mid .detalis {
+        height: 50px;
+        width: 660PX;
+        color: white;
+        padding: 2px;
+        font-size: 20px;
+        position: absolute;
+        top: 83%;
+        left: 10%;
+    }
+
+    .mid .trial {
+        cursor: pointer;
+        height: 20px;
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 20px;
+        font-weight: bolder;
+        background-color: rgb(14, 13, 13, 0.6);
+        position: absolute;
+        top: 30%;
+        right: 5%;
+    }

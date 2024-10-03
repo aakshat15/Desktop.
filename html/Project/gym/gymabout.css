@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(about.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.container{
+   box-sizing: border-box;
+   display: flex;
+   flex-flow: column wrap;
+   height: 100%;
+   width: 100%;
+   border: 2px solid gray;
+}
+.headding{
+    color: white;
+    /* border: 2px solid red; */
+    font-size: 70px;
+    position: absolute;
+    top: 62;
+    left: 35%;
+}
+.section p{
+    color: white;
+    text-align: center;
+    /* border: 2px solid greenyellow; */
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 50px;
+    
+}

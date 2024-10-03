@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing units</title>
+    <style>
+        html{
+              font-size: 30px;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+         nav{        
+            background-color: aqua;
+            height: 10vh;
+            width: 50vw;
+            font-size: 2em;
+            text-align: center;
+        }
+         section{
+            background-color: red;
+            width: 100vw;
+            height: 80vh;
+            /* it will be take root size and root size is body tag */
+            font-size:2rem ;
+        }
+         footer{
+            background-color: greenyellow;
+            height: 10vh;
+           
+            text-align: center;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            this is nav
+        </nav>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur rerum quam fugiat. Sunt delectus
+                autem, libero quisquam culpa a. Nobis neque pariatur dicta voluptatum ducimus inventore fugiat eos quae
+                fuga!</p>
+        </section>
+        <footer>
+            this is footer
+        </footer>   
+    </div>
+
+</body>
+
+</html>

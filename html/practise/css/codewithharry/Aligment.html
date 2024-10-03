@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usign float and cleam</title>
+    <style>
+        *{ 
+            box-sizing: border-box;
+        }
+        body{
+            background-color: beige;
+        }
+        h1{
+            text-align: center;
+            text-decoration: solid;
+            font-family: 'Courier New', Courier, monospace;
+            
+
+        }
+        .container{
+            width: 1000px;
+            border: 2px solid black;
+            background-color: aqua;
+            margin: 50px auto;
+            padding-top: 2px;
+        }
+        .item{
+            border: 2px solid rgb(124, 124, 170);
+            margin: 12px 3px;
+            padding: 12px 5px;
+            background-color: rgb(202, 188, 215);
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+        #computer{   
+           float: right; 
+            width: 48%;
+           
+        }
+        #stationary{
+
+            width: 99.5%;
+           clear:both;
+           padding-right: 100px;
+           margin: 12px 1px 2px 2px;
+        } 
+    </style>
+</head>
+<body>
+    <h1>This is overlaping</h1>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p id="fritpera" class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem aperiam dolor quod odio necessitatibus suscipit aspernatur architecto nesciunt sunt. Debitis esse dicta hic ex veritatis at nam autem suscipit illum.
+            </p>
+        </div>
+            <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, expedita ipsum? Qui at, error sunt distinctio ut tempora unde accusantium ipsum corrupti veritatis consequatur harum doloribus impedit, quas voluptatibus excepturi?
+            </p>
+        </div>    
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga eos reprehenderit, perspiciatis vel quos perferendis doloremque. Magnam dolor, fugit qui quibusdam, et porro delectus esse dolores laudantium laborum illo sit?
+            </p>
+        </div>
+        <div id="electronic" class="item">
+            <h3>electronic</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolorem quo recusandae est molestiae earum id aspernatur rem officiis, dolorum ipsum fugit quas ullam tempore. Earum minus et odio voluptates.</p>
+        </div>
+    </div>
+</body>
+</html>

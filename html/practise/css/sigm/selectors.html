@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectore</title>
+    <style>
+        .box{
+            height: 40vh;
+            width: 40%;
+            border: 2px solid black;
+        }
+        /* .box:first-child{
+            color: blue;
+        } */
+
+        /* .box::first-line{
+            color: yellow;
+        } */
+
+        /* .boxes *{
+            color: brown;
+        } */
+
+       /* [data-color="primary"]{
+        color: antiquewhite;
+       } */
+
+       /* .box:nth-child(odd){
+        color: orange;
+       } */
+
+       .boxes::before{
+        content: "it use to insert content by css only";
+       }
+
+       .boxes::after{
+        content: "by help of insert contain dynamicaly";
+       }
+
+
+       ::selection{
+        background-color: blueviolet;
+        color: aqua;
+       }
+
+       input::placeholder{
+        color: blue;
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">one</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eius repudiandae quas dignissimos. Quam quidem aliquid consequuntur aut facilis magni animi fuga officia, perspiciatis sunt reprehenderit qui nihil? Eum, sed debitis! Est, necessitatibus dolorem sint deserunt possimus similique atque, odio earum eum cupiditate numquam, inventore nihil culpa ea voluptatum nobis.</div>
+        <div class="box" data-color="primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum laboriosam omnis sequi placeat beatae, vel voluptas reiciendis doloribus modi repellat.</div>
+
+        <input type="text" placeholder="input  text"><br>
+    </div>
+</body>
+</html>

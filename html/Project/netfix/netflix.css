@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://wallpapers.com/images/high/netflix-background-gs7hjuwvv2g0e9fj.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+header {
+    margin: 0;
+    z-index: 100%;
+}
+
+.nav {
+    contain: left;
+}
+
+.nav button {
+    font-size: medium;
+    border: none;
+    background-color: rgb(229, 15, 15);
+    color: aliceblue;
+    height: 30px;
+    width: 80px;
+    border-radius: 6px;
+    float: right;
+    position: absolute;
+    right: 150px;
+    top: 30px;
+}
+
+.nav button:hover {
+    background-color: rgb(186, 25, 25);
+    cursor: pointer;
+}
+
+.Language {
+    background-color: black;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline;
+    width: 50px;
+}
+
+.scroll {
+    text-align: center;
+    border-radius: 5px;
+    height: 29px;
+    width: 110px;
+    border: 2px double white;
+    float: rigth;
+    background: transparent;
+    color:white;
+    position: absolute;
+    right: 250px;
+    top: 30px;
+}
+option{
+   color: black; 
+}
+
+.logo img{
+    height: 130px;
+    width: 23   0px;
+    background: transparent;
+    position: absolute;
+    left: 82px;
+    top: -15px;
+}
+.hadding h1{
+    box-sizing: border-box;
+    font-size:55px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    width: 500px;
+    top: 38%;
+    left:30%;
+    margin: auto;
+    color: white;
+}
+.hadding p{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 63%;
+    left: 35%;
+    font-size: 25px;
+    width: 90%;
+}
+.hadding label{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+.footer input{
+        background-color: rgba(44, 34, 34,0.5);
+        color: white;
+        border: 1px solid red;
+        height: 50px;
+        width: 350px;
+        position: absolute;
+        top: 82%;
+        left: 26%;
+        border-radius: 6px;
+        padding: 2px 0px 2px 20px;
+        font-weight: 900;
+}
+.footer button{
+    border: none;
+    background-color: rgb(229, 15, 15);
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 24px;
+    height: 50px;
+    width: 250px;
+    border-radius: 6px;
+    float: right;
+    position: absolute;
+    top: 82%;
+    left: 52%;
+}
+.footer button:hover {
+    background-color: rgb(186, 25, 25);
+    cursor: pointer;
+}

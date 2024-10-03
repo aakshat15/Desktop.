@@ -1,0 +1,133 @@
+body{
+    font-family: "Poppins", sans-serif;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url(form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red;          */
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    overflow: auto;
+}
+.mid{
+    display: inline-block;
+    /* border: 2px solid blue; */
+    height: 50px;
+    width: 560px;
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid green; */
+    height: 200px;
+    width: 276px;
+    position: absolute;
+    top: 20px;
+    left:78.8%;
+}
+.left img{
+    position: absolute;
+    height: 50%;
+    width: 46%;
+    top: 2px;
+    left: 25px;
+}
+.left p{
+    color: white;
+    size: 100%;
+    position: absolute;
+    top: 78px;
+    left: 27px;
+}
+.nav{
+    display: inline-block;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 25px;
+}
+.nav li a:hover{ 
+    color: gray;
+    text-decoration: underline;
+}
+.nav li a:active{
+
+    color: black;
+    text-decoration: underline;
+}
+#Contectbtn , #emailbtn{
+    background-color: rgb(85, 82, 82, 0.5);
+    border: 3px solid white;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    position: relative;
+    top: 8px;
+    left: 18px;
+}
+#Contectbtn:hover , #emailbtn:hover{
+    background-color: rgb(85, 82, 82, 0.5);
+    color: rgb(107, 94, 94);
+    cursor: pointer;
+}
+.form{
+    border: 2px solid white;
+    height: 400px;
+    width: 40%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    border-radius: 30px;
+}
+.form h3{
+    /* border: 2px solid blanchedalmond; */
+    color: white;
+    position: relative;
+    left: 30%;
+    font-weight: 500;
+}
+.form form{
+    margin: 34px auto;
+}
+.inpute{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 5px;
+    width: 284px;
+    border-radius: 20px;
+    background-color:rgb(56, 52, 52,0.6);
+}
+.inpute:hover{
+        color: white;
+}
+.form button{
+    background-color: rgb(85, 82, 82, 0.5);
+    border: 3px solid white;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+    padding: 6px 102px;
+    font-size: large;
+}
+.form button:hover{
+    background-color: rgb(85, 82, 82, 0.5);
+    color: white;
+}

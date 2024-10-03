@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            position: relative;
+            height: 80vh;
+            width: 99vw;
+            border: 2px solid black;
+            background-color: blue;
+        }
+         .box{
+            border-radius:50px ;
+            height: 20vh;
+            width: 10vw;
+            background-color: red;
+            /* position: absolute; */
+            /* bottom: 0px; */
+            /* left: 0px; */
+            animation: animation;
+            animation-duration: 1s;
+            animation-iteration-count:1.5;
+            animation-timing-function: 1s;
+            
+            animation: animation 1s ease-in infinite alternate;
+        }
+        @keyframes animation{
+            from{
+                
+            }
+            to{
+                transform: translatey(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        </div>
+    </div>
+</body>
+</html>

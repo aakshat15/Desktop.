@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           
+        }
+
+        nav {
+            background-color: aliceblue;
+            height: 20vh;
+            width: 100vw;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        nav img{
+           margin: 2% 6%;
+           /* border: 2px solid blue; */
+        }
+        nav li{
+            display: flex;
+            flex-flow: row wrap;
+            border: 2px solid blue;
+            list-style: none;
+            align-items: center;
+            width: 40vw;
+            justify-content: space-between;
+            margin-left:350px ;
+
+        }
+        nav li ul {
+            float: left;
+        }
+        nav li ul a{
+            font-family: "Fredoka", sans-serif;
+            text-decoration: none;
+            color: rgb(24, 23, 23);
+        }   
+        @media(max-width:1000px){
+
+            nav li {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="loadding" width="160vw" height="56vh">
+            <li>
+                <ul><a href="">Products </a></ul>
+                <ul><a href="">For bussines</a></ul>
+                <ul><a href="">Resources</a></ul>
+                <ul><a href="">Support</a></ul>
+                <ul><a href="">Our company</a></ul>
+            </li>
+        </nav>
+    </div>
+</body>
+
+</html>

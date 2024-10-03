@@ -1,0 +1,26 @@
+quetion..
+1.What is use of this Application?
+2.Why are you take this Project.
+3.Why need for this appliation?
+4.What technology used in there applilcation?
+
+used-
+
+
+By the: user:
+
+1. It is used for the take vehicle for rent.
+2. Simple way to chose the vehicle as per the requriment.
+3. In this application there are the sure rate for the vehical rent.
+4. Without any contact you can haired the vehicle.
+5. User friedly gui in there Application for used.
+
+By the: Renter:
+
+1. Renter Simply post there vehical with verificaton.
+2. Renter the have a extra vehical then the Renter put on the rent and simply deal with the user.
+3. Renter have all right to verify the user and deal with them.
+4. Renter does't want main bussine in this Renter simply take as a side income.
+5. In this Renter has rigth to show the timeline  and rate.
+
+

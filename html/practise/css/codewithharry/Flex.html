@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex prperty</title>
+    <style>
+        .container{
+            height: 300px;
+            border: 2px solid black;
+            display: flex;
+            /* flex-direction:row;
+            flex-wrap: nowrap; */
+
+            /* short form of both */
+            flex-flow: row wrap;
+
+            /* for the center   it is by the row */
+            /* justify-content: center; */
+            
+            /* space between element */
+            /* justify-content: space-between; */
+
+            /* same space between all */
+            /* justify-content: space-evenly; */
+
+            /* same space by left rigth side of margin */
+            /* justify-content: space-around; */
+
+            /* it is for columne by center */
+            /* align-items: center; */
+
+            /* align-items: baseline; */
+        }
+        .item{
+            height: 150px;
+            width: 150px;
+            border: 2px solid red;
+            margin: 5px;
+            text-align: center;
+        }
+        #item-1{
+            flex-basis: 300px;
+            order: 1;
+            /* flex-grow: 2;  */
+            flex-shrink: 2;
+
+            align-self: center;
+        }
+        #item-2{
+            order: 3;
+            flex-shrink:10 ;
+        }
+        #item-3{
+            /* flex-grow: 3; */
+            flex-shrink: 3;
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="item-1">First</div>
+        <div class="item" id="item-2">Seco</div>
+        <div class="item" id="item-3">Third</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>grid practise</title>
+        <style>
+        *{
+        padding: 0;
+        margin: 0;
+        }
+        .container{
+            display: grid;
+            border: 2px solid black;
+            grid-template-areas: "nav nav nav"
+                                  "side article article"
+                                  "footer footer footer";  
+             }
+        .box{
+            border: 2px solid blue;
+            height: 30vh;
+        }
+       .box1{
+            grid-area: nav;
+       }
+       .box5{
+        grid-area: footer;
+       }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="box box1">one</div>
+            <div class="box box2">secound</div>
+            <div class="box box3">third</div>
+            <div class="box box4">four</div>
+            <div class="box box5">five</div>
+        </divv>
+</body>
+</html>
